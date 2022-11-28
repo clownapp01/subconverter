@@ -1,5 +1,5 @@
 FROM alpine:latest
-COPY subconverter/* /
+COPY pref.toml subconverter/* /
 EXPOSE 25500
 RUN chmod +x /subconverter
 CMD /subconverter
