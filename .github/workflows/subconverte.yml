@@ -16,7 +16,6 @@ jobs:
         wget https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz
         tar -zxvf subconverter_linux64.tar.gz
         sudo rm -rf subconverter_linux64.tar.gz
-        sudo cp -rf pref.toml subconverter/
         
     - name: Add & Commit
       uses: EndBug/add-and-commit@v6
